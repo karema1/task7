@@ -1,0 +1,10 @@
+ import matplotlib.pyplot as plt
+days=['saturday','sunday','monday','tuesday','wendnesday','thursday','friday']
+temp=[17,11,9,13,10,6,12]
+
+plt.bar(days, temp, color= 'red')
+plt.xlabel("Days of the week")
+plt.ylabel("Temperature")
+plt.title("temperature variation over a week")
+plt.xticks(rotation=40)
+plt.show()
